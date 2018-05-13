@@ -1,0 +1,18 @@
+{
+    "name": "svg-animated-infographic",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "concurrently  \"npm run lite\" \"npm run scss\" ",
+        "lite": "lite-server",
+        "scss": "node-sass --watch scss -o css",
+        "localtunnel": "lt --port 3000 --subdomain gsn1074"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "lite-server": "2.2.2",
+        "concurrently": "3.1.0",
+        "node-sass": "4.7.2",
+        "localtunnel": "1.8.1"
+    }
+}
